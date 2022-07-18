@@ -1,12 +1,13 @@
-@import "~bootstrap/scss/bootstrap.scss";
-@import '~bootstrap/dist/js/bootstrap.js';
 body[data-theme='light'] {
-   background-color: wheat;
+   background-color: white;
    --text-color: black;
+   --text-extend: aqua;
 }
-body[data-theme="dark"]{
+body[data-theme='dark'] {
    background-color: black;
    --text-color: green;
+   --text-extend: aqua;
 }
 @import 'header';
 @import 'footer';
+@import 'home';
